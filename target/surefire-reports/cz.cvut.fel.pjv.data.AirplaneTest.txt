@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: cz.cvut.fel.pjv.data.AirplaneTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec <<< FAILURE!
+cz.cvut.fel.pjv.data.AirplaneTest.testGetNearbyAirplanes()  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "cz.cvut.fel.pjv.data.Flight.connectAirplane(cz.cvut.fel.pjv.data.Airplane)" because "flight" is null
+	at cz.cvut.fel.pjv.data.Airplane.<init>(Airplane.java:72)
+	at cz.cvut.fel.pjv.data.AirplaneTest.testGetNearbyAirplanes(AirplaneTest.java:56)
+
+cz.cvut.fel.pjv.data.AirplaneTest.testPerformWaitingCycle()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "cz.cvut.fel.pjv.data.Airplane.performWaitingCycle()" because "this.airplane" is null
+	at cz.cvut.fel.pjv.data.AirplaneTest.testPerformWaitingCycle(AirplaneTest.java:88)
+
+cz.cvut.fel.pjv.data.AirplaneTest.testHandleCrash()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "cz.cvut.fel.pjv.data.Flight.connectAirplane(cz.cvut.fel.pjv.data.Airplane)" because "flight" is null
+	at cz.cvut.fel.pjv.data.Airplane.<init>(Airplane.java:72)
+	at cz.cvut.fel.pjv.data.AirplaneTest.testHandleCrash(AirplaneTest.java:67)
+
+cz.cvut.fel.pjv.data.AirplaneTest.testFlyTo()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot assign field "latitude" because "this.airplane" is null
+	at cz.cvut.fel.pjv.data.AirplaneTest.testFlyTo(AirplaneTest.java:38)
+
+cz.cvut.fel.pjv.data.AirplaneTest.testLand()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "cz.cvut.fel.pjv.data.Airplane.land()" because "this.airplane" is null
+	at cz.cvut.fel.pjv.data.AirplaneTest.testLand(AirplaneTest.java:82)
+
+cz.cvut.fel.pjv.data.AirplaneTest.testTakeOff()  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "cz.cvut.fel.pjv.data.Airplane.takeOff()" because "this.airplane" is null
+	at cz.cvut.fel.pjv.data.AirplaneTest.testTakeOff(AirplaneTest.java:77)
+
