@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"cz.cvut.fel.pjv"},{"l":"cz.cvut.fel.pjv.control"},{"l":"cz.cvut.fel.pjv.data"},{"l":"cz.cvut.fel.pjv.map"},{"l":"cz.cvut.fel.pjv.OpenSky"}];updateSearchResults();
